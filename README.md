@@ -3,8 +3,8 @@
 Note this section of the program in flip.qs:
 
 
-		                  H(qubit);  // first flip
-                    let val = M(qubit);  // an read
+		    H(qubit);  // first flip
+                    let val = M(qubit);  // a read, toggle this line.
                     H(qubit);  // second flip
 
 
