@@ -1,9 +1,9 @@
 # QuantumComputingFlipCoin
- This is a quantum computing program to flip the coin, using Q#.
+This is a quantum computing program to flip the coin, using Q#.
 Note this section of the program in flip.qs:
 
 
-		    H(qubit);  // first flip
+	H(qubit);  // first flip
                     let val = M(qubit);  // a read, toggle this line.
                     H(qubit);  // second flip
 
